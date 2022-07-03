@@ -6,14 +6,14 @@ const ListData = ({ items, deleteItem }) => {
   return (
     <div className="w-full h-full">
       {items.map((item) => (
-        <div className="bg-black rounded-2xl my-12 overflow-hidden">
+        <div className="bg-white dark:bg-black rounded-2xl my-12 overflow-hidden">
           <img
             className="w-full h-auto bg-center bg-cover cursor-pointer duration-300 hover:scale-105"
             src={item.image}
             alt=""
           />
-          <h1 className="text-white text-xl my-2 mt-4 px-3">{item.name}</h1>
-          <p className="text-white my-4 text-[14px] px-3 pb-4 text-justify">
+          <h1 className="text-black dark:text-white text-xl my-2 mt-4 px-3">{item.name}</h1>
+          <p className="text-black dark:text-white my-4 text-[14px] px-3 pb-4 text-justify">
             {more ? item.description : `${item.description.substring(0, 200)}`}
           </p>
           <div className="flex items-center justify-between lg:flex-col lg:items-start">
