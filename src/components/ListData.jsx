@@ -8,7 +8,7 @@ const ListData = ({ items, deleteItem }) => {
       {items.map((item) => (
         <div className="bg-black rounded-2xl my-12 overflow-hidden">
           <img
-            className="w-auto h-auto bg-center bg-cover cursor-pointer duration-300 hover:scale-105"
+            className="w-full h-auto bg-center bg-cover cursor-pointer duration-300 hover:scale-105"
             src={item.image}
             alt=""
           />
