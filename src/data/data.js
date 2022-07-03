@@ -27,6 +27,13 @@ const data = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti rerum numquam possimus aliquid tempora, molestias quo facilis. Eos, vero consequuntur nisi similique cumque, facere nulla hic iste nesciunt saepe tempore.Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti rerum numquam possimus aliquid tempora, molestias quo facilis. Eos, vero consequuntur nisi similique cumque, facere nulla hic iste nesciunt saepe tempore.Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti rerum numquam possimus aliquid tempora, molestias quo facilis. Eos, vero consequuntur nisi similique cumque, facere nulla hic iste nesciunt saepe tempore.Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti rerum numquam possimus aliquid tempora, molestias quo facilis. Eos, vero consequuntur nisi similique cumque, facere nulla hic iste nesciunt saepe tempore.",
   },
+  {
+    id: 5,
+    name: "Under the Sea",
+    image: "https://wallpaperaccess.com/full/218535.jpg",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti rerum numquam possimus aliquid tempora, molestias quo facilis. Eos, vero consequuntur nisi similique cumque, facere nulla hic iste nesciunt saepe tempore.Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti rerum numquam possimus aliquid tempora, molestias quo facilis. Eos, vero consequuntur nisi similique cumque, facere nulla hic iste nesciunt saepe tempore.Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti rerum numquam possimus aliquid tempora, molestias quo facilis. Eos, vero consequuntur nisi similique cumque, facere nulla hic iste nesciunt saepe tempore.Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti rerum numquam possimus aliquid tempora, molestias quo facilis. Eos, vero consequuntur nisi similique cumque, facere nulla hic iste nesciunt saepe tempore.",
+  },
 ];
 
 export default data;

@@ -8,7 +8,7 @@ const ListData = ({ items, deleteItem }) => {
       {items.map((item) => (
         <div className="bg-black rounded-2xl my-12 overflow-hidden">
           <img
-            className="w-full h-full bg-center bg-cover cursor-pointer duration-300 hover:scale-105"
+            className="w-auto h-auto bg-center bg-cover cursor-pointer duration-300 hover:scale-105"
             src={item.image}
             alt=""
           />
@@ -16,7 +16,7 @@ const ListData = ({ items, deleteItem }) => {
           <p className="text-white my-4 text-[14px] px-3 pb-4 text-justify">
             {more ? item.description : `${item.description.substring(0, 200)}`}
           </p>
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between lg:flex-col lg:items-start">
             <h3
               className="w-fit text-white font-semibold px-4 py-2 mb-4 mx-3 border-2 border-white cursor-pointer duration-300 hover:bg-white hover:text-black"
               onClick={() => setMore(!more)}
